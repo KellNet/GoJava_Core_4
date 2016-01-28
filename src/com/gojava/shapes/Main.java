@@ -1,4 +1,4 @@
-package com.gojava;
+package com.gojava.shapes;
 
 public class Main {
 

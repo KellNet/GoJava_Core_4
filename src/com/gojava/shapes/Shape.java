@@ -38,8 +38,8 @@ public class Shape {
         return width * height;
     }
     public double calcAreaTriangle() {
-        double p = ((sideA + sideB + sideC) / 2);
-        double s = p * (p - sideA) * (p - sideB) * (p - sideC);
+        final double p = ((sideA + sideB + sideC) / 2);
+        final double s = p * (p - sideA) * (p - sideB) * (p - sideC);
         return Math.sqrt(s);
     }
 

@@ -20,7 +20,7 @@ class Shape {
         this.sideA = sideA;
         this.sideB = sideB;
         this.shapeType = "Rectangle";
-        this.calcArea = calcAreaRectangle()
+        this.calcArea = calcAreaRectangle();
     }
 
     public Shape(double sideA, double sideB, double sideC) {

@@ -44,19 +44,14 @@ class Shape {
     }
 
     public String toStringCircle() {
-        return "Shape{" +
-                "radius=" + radius +
-                ", shapeType='" + shapeType + '\'' +
-                ", calcArea=" + calcArea +
-                '}';
+        return "Shape is: " + shapeType + ", calcArea=" + calcArea;
     }
 
     public String toStringRectangle() {
-        return "Shape{" +
-                "width=" + width +
-                ", height=" + height +
-                ", shapeType='" + shapeType + '\'' +
-                ", calcArea=" + calcArea +
-                '}';
+        return "Shape is: "+ shapeType + ", calcArea=" + calcArea;
+    }
+
+    public String toStringTriangle() {
+        return "Shape is: " + shapeType + ", calcArea=" + calcArea;
     }
 }

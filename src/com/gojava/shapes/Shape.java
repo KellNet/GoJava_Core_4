@@ -3,7 +3,7 @@ package com.gojava.shapes;
 /**
  * Created by Kell on 28.01.2016.
  */
-class Shape {
+public class Shape {
     private double sideA, sideB, sideC;
     private double width, height;
     private double radius;
@@ -16,9 +16,9 @@ class Shape {
         this.calcArea = calcAreaCircle();
     }
 
-    public Shape(double sideA, double sideB) {
-        this.sideA = sideA;
-        this.sideB = sideB;
+    public Shape(double width, double height) {
+        this.width = width;
+        this.height = height;
         this.shapeType = "Rectangle";
         this.calcArea = calcAreaRectangle();
     }

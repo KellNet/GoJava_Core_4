@@ -51,8 +51,7 @@ class Shape {
                 '}';
     }
 
-    @Override
-    public String toString() {
+    public String toStringRectangle() {
         return "Shape{" +
                 "width=" + width +
                 ", height=" + height +
